@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-if test -f "installbrew.sh"; then
-  .\installbrew.sh
-else
+
+if [ ! -f ./installbrew.sh ]  
   curl -sSL https://raw.githubusercontent.com/PartTimeLegend/newmacbuild/master/installbrew.sh | bash
+else
+  .\installbrew.sh
 fi
 
-if test -f "installapps.sh"; then
-  .\installapps.sh
-else
+if [ ! -f ./installapps.sh]
   curl -sSL https://raw.githubusercontent.com/PartTimeLegend/newmacbuild/master/installapps.sh | bash
+else
+  ./installapps.sh
 fi
