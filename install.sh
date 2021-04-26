@@ -28,7 +28,6 @@ brew install tflint
 brew install p7zip
 brew install powershell
 brew install cmake
-brew install checksum
 brew install burp-suite
 brew install autopsy
 brew install balenaetcher
