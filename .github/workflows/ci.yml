@@ -15,11 +15,8 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run install brew
-      run: ./installbrew.sh
-      shell: bash
-    - name: Run install apps
-      run: ./installapps.sh
+    - name: Run install
+      run: ./install.sh
       shell: bash
   codacy-security-scan:
     name: Codacy Security Scan
