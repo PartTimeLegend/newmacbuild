@@ -5,5 +5,5 @@
 I had a Windows one, but I decided to get a Mac. Basically a wrapped for [homebrew](http://brew.sh)
 
 ```bash
-curl -sSL https://github.com/PartTimeLegend/newmacbuild/blob/master/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/PartTimeLegend/newmacbuild/master/install.sh| bash
 ```
