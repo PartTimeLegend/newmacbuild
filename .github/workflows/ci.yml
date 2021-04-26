@@ -11,12 +11,15 @@ on:
   
 jobs:
   powershell:
-    name: Powershell
+    name: Bash
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run script
-      run: .\installbrew.sh
+    - name: Run install brew
+      run: ./installbrew.sh
+      shell: bash
+    - name: Run install apps
+      run: ./installapps.sh
       shell: bash
   codacy-security-scan:
     name: Codacy Security Scan
