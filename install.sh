@@ -51,7 +51,7 @@ brew install awscli
 brew install azure-cli
 
 # Containers
-brew install docker
+brew install --cask docker
 brew install helm
 brew install kubernetes-cli
 brew install minikube
