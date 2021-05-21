@@ -17,6 +17,8 @@ brew install postman
 brew install visual-studio
 # Text Editors
 brew install 010-editor
+# Financial
+brew install electrum
 # Browsers
 brew install google-chrome
 brew install firefox
